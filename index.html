@@ -141,23 +141,23 @@
       <div class="w-full mx-auto">
         <div class="card rounded-none">
           <figure class="px-10">
-            <img src="./assets/banner.png" alt="Shoes" class="max-w-lg" />
+            <img src="./assets/banner.png" alt="Shoes" class="md:max-w-lg" />
           </figure>
           <div class="card-body items-center text-center">
             <h1
-              class="text-color-main text-6xl font-extrabold card-title max-w-5xl mb-4"
+              class="text-color-main text-3xl lg:text-6xl font-extrabold card-title lg:max-w-5xl mb-4"
             >
               A barn house of this design has a striking appearance
             </h1>
-            <p class="mb-4 text-color-secondary max-w-4xl">
+            <p class="mb-4 text-color-secondary lg:max-w-4xl">
               The barn house captivates with its blend of rustic charm and
               modern sophistication, featuring weathered wood, sleek metal
               accents, and large windows that flood the space with natural
               light.
             </p>
-            <div class="card-actions">
+            <div class="card-actions w-full lg:w-auto">
               <button
-                class="btn bg-color-btn-secondary text-lg font-bold rounded-full"
+                class="px-6 py-4 flex justify-center items-center gap-2 w-full bg-color-btn-secondary text-lg font-bold rounded-full"
               >
                 View Details
                 <img
@@ -175,7 +175,60 @@
     </nav>
 
     <!-- sections -->
-    <main></main>
+    <main>
+
+      <!-- about us section -->
+       <section>
+        <div class="bg-slate-100 lg:p-16 pt-4">
+          <div class="hero-content items-start flex-col-reverse lg:flex-row-reverse">
+            <img
+            class="lg:max-w-[34rem] mb-4 lg:mb-0"
+              src="./assets/Rectangle.png" />
+            <div>
+              <img class="mb-4 -ml-8 w-20 hidden lg:flex" src="./assets/Vector.png" alt="">
+              <button class="mx-auto lg:mx-0 mb-4 flex gap-2 justify-center items-center font-semibold bg-white rounded-full px-3 py-1"><img width="20" height="20" src="https://img.icons8.com/ios/50/long-arrow-right--v1.png" alt="long-arrow-right--v1"/> About Us</button>
+              <h1 class="text-2xl lg:text-4xl text-color-main font-extrabold max-w-md text-center lg:text-start">We design thoughtful, liveable spaces</h1>
+              <p class="py-6 max-w-xl text-center lg:text-start">
+                The barn house captivates with its blend of rustic charm and 
+modern sophistication, featuring weathered wood, sleek metal accents.
+              </p>
+
+              <!--  -->
+              <div class="bg-white rounded-lg max-w-lg mb-5">
+                <div class="flex gap-4 justify-center lg:justify-start lg:items-center  p-4 lg:flex-row">
+                  <img
+                    src="./assets/commercial.png"
+                    class="w-14 h-14 lg:h-[65px] lg:max-w-sm rounded-lg" />
+                  <div>
+                    <h1 class="text-xl font-bold">Commercial</h1>
+                    <p class="py-2 max-w-xs">
+                      The barn house captivates with its blend of rustic charm and modern.
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <!--  -->
+              <div class="bg-white rounded-lg max-w-lg">
+                <div class="flex gap-4 justify-center lg:justify-start lg:items-center  p-4 lg:flex-row">
+                  <img
+                    src="./assets/residential.png"
+                    class="w-14 h-14 lg:h-[65px] lg:max-w-sm rounded-lg" />
+                  <div>
+                    <h1 class="text-xl font-bold">Residential</h1>
+                    <p class="py-2 max-w-xs">
+                      The barn house captivates with its blend of rustic charm and modern.
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+    </main>
 
     <!-- footer -->
     <footer></footer>
